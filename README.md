@@ -1,2 +1,2 @@
-# tzenszentoh.com
+# ttszen.com
 My personal website
