@@ -1,0 +1,187 @@
+.main-text {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+.main-text h3 {
+    font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif;
+    font-size: 32px;
+    color: #474440;
+}
+
+.main-text p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0C1446;
+}
+
+.main-text li {
+  font-size: 16px;
+  line-height: 150%;
+  color: #0C1446;
+}
+
+.main-text a {
+    color: #68A4F1;
+    text-decoration: none;
+}
+
+.main-text a:hover {
+    text-decoration: underline;
+    text-decoration-color: #68A4F1;
+}
+
+.secondary-page-text { 
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    padding-left: 20%;
+    padding-right: 30%;
+    padding-top: 2.5%; 
+    padding-bottom: 2.5%; 
+}
+
+.secondary-page-text h3 { 
+    font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif;
+    color: #68A4F1;
+    font-size: 26px;
+}
+
+.secondary-page-text h2 {
+  font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif; 
+  color: #212121;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+
+.secondary-page-text p {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 17px;
+  line-height: 150%;
+  color: #0C1446;
+}
+
+.secondary-page-text a {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #68A4F1;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.secondary-page-text a:hover {
+    text-decoration: underline;
+    text-decoration-color: #68A4F1;
+}
+
+.prof-photo {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2.5%;
+}
+
+img { 
+    width: auto;
+    height: 100%;
+    max-height: 12.5vw;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /* font-family: 'Nunito Sans', sans-serif; */
+  }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    padding-right: 10%;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #0C1446;
+  }
+  
+  .nav > .nav-links > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #0C1446;
+  }
+
+  .nav > .nav-links > .selected-label {
+    color: #0C1446;
+    text-decoration: underline;
+  }
+
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover {
+      text-decoration: underline;
+      text-decoration-color: #0C1446;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #0C1446;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #9B9B9B;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
