@@ -8,30 +8,30 @@
 .main-text h3 {
     font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif;
     font-size: 32px;
-    color: #474440;
+    color: #36454F;
 }
 
 .main-text p {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 16px;
     line-height: 150%;
-    color: #0C1446;
+    color: #36454F;
 }
 
 .main-text li {
   font-size: 16px;
   line-height: 150%;
-  color: #0C1446;
+  color: #36454F;
 }
 
 .main-text a {
-    color: #68A4F1;
+    color: #009933;
     text-decoration: none;
 }
 
 .main-text a:hover {
     text-decoration: underline;
-    text-decoration-color: #68A4F1;
+    text-decoration-color: #009933;
 }
 
 .secondary-page-text { 
@@ -44,7 +44,7 @@
 
 .secondary-page-text h3 { 
     font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif;
-    color: #68A4F1;
+    color: #009933;
     font-size: 26px;
 }
 
@@ -60,12 +60,12 @@
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 17px;
   line-height: 150%;
-  color: #0C1446;
+  color: #36454F;
 }
 
 .secondary-page-text a {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    color: #68A4F1;
+    color: #009933;
     font-size: 17px;
     text-decoration: none;
     line-height: 150%;
@@ -73,7 +73,7 @@
 
 .secondary-page-text a:hover {
     text-decoration: underline;
-    text-decoration-color: #68A4F1;
+    text-decoration-color: #009933;
 }
 
 .prof-photo {
@@ -121,16 +121,16 @@ img {
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #0C1446;
+    color: #36454F;
   }
   
   .nav > .nav-links > a:hover {
     text-decoration: underline;
-    text-decoration-color: #0C1446;
+    text-decoration-color: #36454F;
   }
 
   .nav > .nav-links > .selected-label {
-    color: #0C1446;
+    color: #36454F;
     text-decoration: underline;
   }
 
@@ -153,13 +153,13 @@ img {
     }
     .nav > .nav-btn > label:hover {
       text-decoration: underline;
-      text-decoration-color: #0C1446;
+      text-decoration-color: #36454F;
     }
     .nav > .nav-btn > label > span {
       display: block;
       width: 25px;
       height: 10px;
-      border-top: 2px solid #0C1446;
+      border-top: 2px solid #36454F;
     }
     .nav > .nav-links {
       position: absolute;
